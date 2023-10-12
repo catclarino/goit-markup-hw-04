@@ -138,7 +138,10 @@ body {
 .logo-studio-nav {
     color: var(--navyblue);
 }
-
+.logo-studio-nav:hover,
+.logo-studio-footer:hover{
+    color:var(--lightgreen)
+}
 .nav-link {
     font-weight: 500;
     line-height: 1.5;
@@ -195,7 +198,8 @@ body {
     padding: 16px 32px;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: var(--ocean);
 }
 
@@ -256,7 +260,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-.socials-icon:hover {
+.socials-icon:hover,
+.socials-icon:focus {
     background-color: var(--lightgreen);
     border-radius: 50%;
     height: 40px;
@@ -340,6 +345,7 @@ body {
 }
 
 .portfolio-btn-filter:hover,
+.portfolio-btn-filter:focus,
 .active {
     border-radius: 4px;
     border: 1px solid var(--cornflower);
@@ -347,7 +353,8 @@ body {
     color: var(--cloud);
 }
 
-.active:hover {
+.active:hover,
+.active:focus {
     background: var(--cloud);
     color: var(--iris);
 }
