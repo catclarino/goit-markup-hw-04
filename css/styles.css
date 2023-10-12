@@ -40,7 +40,7 @@ body {
 }
 
 
-.logo .logo-web:hover {
+.logo-web:hover {
     color: var(--lightgreen);
 }
 
