@@ -138,10 +138,7 @@ body {
 .logo-studio-nav {
     color: var(--navyblue);
 }
-.logo-studio-nav:hover,
-.logo-studio-footer:hover{
-    color:var(--lightgreen)
-}
+
 .nav-link {
     font-weight: 500;
     line-height: 1.5;
